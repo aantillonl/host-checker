@@ -1,0 +1,11 @@
+consumer:
+  build: .
+  env_file: env
+  command: host-metrics consume
+
+producer:
+  build: .
+  env_file: env
+  volumes:
+      - ./producer_config:/app/producer_config
+  command: host-metrics produce --config /app/producer_config

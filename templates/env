@@ -1,0 +1,12 @@
+DB_HOST=db_host
+DB_PASSWORD=db_password
+DB_USER=db_user
+DB_PORT=db_port
+DB_NAME=db_name
+DB_TABLE=db_table
+DB_BATCH_SIZE=1
+KAFKA_TOPIC=kafka_topic
+KAFKA_BOOTSTRAP_SERVERS=kafka_bootstrap_servers
+KAFKA_SSL_CA_FILE=/certs/ssl_ca_file.pem
+KAFKA_SSL_KEY_FILE=/certs/ssl_key_file.key
+KAFKA_SSL_CERT_FILE=/certs/ssl_cert_file.cert
